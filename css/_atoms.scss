@@ -1,0 +1,13 @@
+@import "_variables";
+
+@mixin zengard_translateY($val){
+    transform: translateY($val);
+}
+h1,h2,h3,h4,h5,h6 {
+    color: $primary;
+    font-family: $fonts-body; 
+  }
+  p,a {
+    color: $primary2;
+    font-family: $fonts-body2; 
+}
