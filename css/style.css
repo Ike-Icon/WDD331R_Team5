@@ -32,7 +32,7 @@ p, a {
   src: url("../Bigruns.ttf");
 }
 html {
-  background-image: url(../assets/4ksea.png);
+  background-image: url(../assets/ocean.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -42,6 +42,7 @@ html {
 body {
   height: 100vh;
   width: 100vw;
+  background-color: rgba(0, 0, 0, 0.68);
 }
 
 #zen-preamble > h3 {
