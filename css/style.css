@@ -3,16 +3,13 @@
 h1, h2, h3, h4, h5, h6 {
   color: #387eaf;
   font-family: "Bigruns", sans-serif;
-}
-
-p, a {
-  color: #f2efed;
-  font-family: "Electrolize", sans-serif;
+  font-size: 25px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #387eaf;
   font-family: "Bigruns", sans-serif;
+  font-size: 25px;
 }
 
 p, a {
@@ -20,6 +17,28 @@ p, a {
   font-family: "Electrolize", sans-serif;
 }
 
+@keyframes transExtra {
+  55% {
+    margin-right: 10em;
+    width: 60px;
+  }
+  85% {
+    margin-right: 30em;
+    width: 80px;
+  }
+  90% {
+    margin-right: 32em;
+    width: 80px;
+  }
+  95% {
+    margin-right: 40em;
+    width: 80px;
+  }
+  100% {
+    margin-right: 80em;
+    width: 100px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -51,7 +70,6 @@ body {
 
 .intro {
   margin: 20px;
-  font-size: 15px;
   width: 26vw;
   position: absolute;
   top: 10vh;
@@ -96,28 +114,6 @@ body {
   animation: transExtra 7s infinite;
 }
 
-@keyframes transExtra {
-  55% {
-    margin-right: 10em;
-    width: 60px;
-  }
-  85% {
-    margin-right: 30em;
-    width: 80px;
-  }
-  90% {
-    margin-right: 32em;
-    width: 80px;
-  }
-  95% {
-    margin-right: 40em;
-    width: 80px;
-  }
-  100% {
-    margin-right: 80em;
-    width: 100px;
-  }
-}
 .extra5 {
   height: 2px;
   width: 50px;
@@ -192,6 +188,15 @@ body {
 
 #zen-supporting div:hover > .aside {
   display: none;
+}
+
+#zen-explanation {
+  transform: rotateX(45deg) rotateZ(45deg) translateZ(0);
+  z-index: 10;
+}
+
+#zen-explanation:hover {
+  transform: translateY(0) rotateX(20deg) rotateZ(0deg) translateZ(0) scale(1.2);
 }
 
 .sidebar div div h3 {

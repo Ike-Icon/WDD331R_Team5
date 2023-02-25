@@ -5,9 +5,10 @@
 }
 h1,h2,h3,h4,h5,h6 {
     color: $primary;
-    font-family: $fonts-body; 
+    font-family: $fonts-body;
+    font-size: 25px; 
   }
-  p,a {
-    color: $primary2;
-    font-family: $fonts-body2; 
-}
+//   p,a {
+//     color: $primary2;
+//     font-family: $fonts-body2; 
+// }
