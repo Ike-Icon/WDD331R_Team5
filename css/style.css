@@ -199,6 +199,33 @@ body {
   transform: translateY(0) rotateX(20deg) rotateZ(0deg) translateZ(0) scale(1.2);
 }
 
+#zen-participation {
+  transform: rotateX(45deg) rotateZ(45deg) translateZ(250px);
+  z-index: 9;
+}
+
+#zen-participation:hover {
+  transform: translateY(-250px) rotateX(20deg) rotateZ(0deg) translateZ(0) scale(1.2);
+}
+
+#zen-benefits {
+  transform: rotateX(45deg) rotateZ(45deg) translateZ(500px);
+  z-index: 8;
+}
+
+#zen-benefits:hover {
+  transform: translateY(-500px) rotateX(20deg) rotateZ(0deg) translateZ(0) scale(1.2);
+}
+
+#zen-requirements {
+  transform: rotateX(45deg) rotateZ(45deg) translateZ(750px);
+  z-index: 7;
+}
+
+#zen-requirements:hover {
+  transform: translateY(-600px) rotateX(20deg) rotateZ(0deg) translateZ(0) scale(1.2);
+}
+
 .sidebar div div h3 {
   text-shadow: 0 0 10px #f2efed;
   animation: zenFlicker 2s infinite alternate;

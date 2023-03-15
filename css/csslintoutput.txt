@@ -1,0 +1,61 @@
+
+style.css
+   3:1   ✖  Expected empty line before rule                                                           rule-empty-line-before
+   5:16  ✖  Unexpected quotes around "Bigruns"                                                        font-family-name-quotes
+   9:1   ✖  Unexpected duplicate selector "h1, h2, h3, h4, h5, h6", first used at line 3              no-duplicate-selectors
+  11:16  ✖  Unexpected quotes around "Bigruns"                                                        font-family-name-quotes
+  17:16  ✖  Unexpected quotes around "Electrolize"                                                    font-family-name-quotes
+  20:12  ✖  Expected keyframe name "transExtra" to be kebab-case                                      keyframes-name-pattern
+  25:3   ✖  Expected empty line before rule                                                           rule-empty-line-before
+  29:3   ✖  Expected empty line before rule                                                           rule-empty-line-before
+  33:3   ✖  Expected empty line before rule                                                           rule-empty-line-before
+  37:3   ✖  Expected empty line before rule                                                           rule-empty-line-before
+  42:1   ✖  Expected empty line before rule                                                           rule-empty-line-before
+  50:16  ✖  Unexpected quotes around "Bigruns"                                                        font-family-name-quotes
+  53:1   ✖  Expected empty line before rule                                                           rule-empty-line-before
+  54:25  ✖  Expected quotes around "url" function argument                                            function-url-quotes
+  64:21  ✖  Expected modern color-function notation                                                   color-function-notation
+  64:35  ✖  Expected "0.68" to be "68%"                                                               alpha-value-notation
+ 129:19  ✖  Expected quotes around "url" function argument                                            function-url-quotes
+ 137:19  ✖  Unexpected unit                                                                           length-zero-no-unit
+ 137:23  ✖  Unexpected unit                                                                           length-zero-no-unit
+ 137:27  ✖  Unexpected unit                                                                           length-zero-no-unit
+ 160:12  ✖  Expected keyframe name "zenFloat" to be kebab-case                                        keyframes-name-pattern
+ 165:1   ✖  Expected empty line before rule                                                           rule-empty-line-before
+ 173:35  ✖  Expected modern color-function notation                                                   color-function-notation
+ 173:54  ✖  Expected "0.35" to be "35%"                                                               alpha-value-notation
+ 182:37  ✖  Expected modern color-function notation                                                   color-function-notation
+ 182:56  ✖  Expected "0.35" to be "35%"                                                               alpha-value-notation
+ 202:1   ✖  Expected selector ".sidebar div div h3" to come before selector "#zen-preamble > h3"      no-descending-specificity
+ 207:12  ✖  Expected keyframe name "zenFlicker" to be kebab-case                                      keyframes-name-pattern
+ 212:1   ✖  Expected selector ".sidebar div div" to come before selector "#zen-supporting div"        no-descending-specificity
+ 212:1   ✖  Expected selector ".sidebar div div" to come before selector "#zen-supporting div:hover"  no-descending-specificity
+ 212:1   ✖  Expected empty line before rule                                                           rule-empty-line-before
+ 226:1   ✖  Expected selector "footer" to come before selector "#zen-supporting footer"               no-descending-specificity
+ 226:1   ✖  Expected selector "footer" to come before selector "#zen-supporting footer:hover"         no-descending-specificity
+ 231:1   ✖  Expected selector "footer:hover" to come before selector "#zen-supporting footer"         no-descending-specificity
+ 231:1   ✖  Expected selector "footer:hover" to come before selector "#zen-supporting footer:hover"   no-descending-specificity
+ 240:1   ✖  Expected empty line before at-rule                                                        at-rule-empty-line-before
+ 250:18  ✖  Unexpected unit                                                                           length-zero-no-unit
+ 250:37  ✖  Expected modern color-function notation                                                   color-function-notation
+ 250:56  ✖  Expected "0.35" to be "35%"                                                               alpha-value-notation
+ 252:3   ✖  Expected empty line before rule                                                           rule-empty-line-before
+ 261:18  ✖  Unexpected unit                                                                           length-zero-no-unit
+ 261:37  ✖  Expected modern color-function notation                                                   color-function-notation
+ 261:56  ✖  Expected "0.35" to be "35%"                                                               alpha-value-notation
+ 263:3   ✖  Expected empty line before rule                                                           rule-empty-line-before
+ 272:3   ✖  Expected empty line before rule                                                           rule-empty-line-before
+ 285:3   ✖  Expected empty line before rule                                                           rule-empty-line-before
+ 293:3   ✖  Expected empty line before rule                                                           rule-empty-line-before
+ 297:3   ✖  Expected selector "footer" to come before selector "#zen-supporting footer"               no-descending-specificity
+ 297:3   ✖  Expected selector "footer" to come before selector "#zen-supporting footer:hover"         no-descending-specificity
+ 300:3   ✖  Expected empty line before rule                                                           rule-empty-line-before
+ 304:3   ✖  Expected selector "footer:hover" to come before selector "#zen-supporting footer"         no-descending-specificity
+ 304:3   ✖  Expected selector "footer:hover" to come before selector "#zen-supporting footer:hover"   no-descending-specificity
+ 307:3   ✖  Expected empty line before rule                                                           rule-empty-line-before
+ 312:21  ✖  Unexpected unit                                                                           length-zero-no-unit
+ 312:25  ✖  Unexpected unit                                                                           length-zero-no-unit
+ 312:29  ✖  Unexpected unit                                                                           length-zero-no-unit
+
+56 problems (56 errors, 0 warnings)
+
